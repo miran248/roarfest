@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	border: 0;
+	overflow:hidden;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.plakat, .plakatS {
+	margin-top: -12px!important;
+	margin-bottom: 100px!important;
+	border:thick solid #202121;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position:absolute;
+	width: auto;
+	max-height: 100%;
+	cursor: pointer;	
+}
+
+.plakatS {
+	display: none;
+}
+
+.slides {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto 0;
+	display: none;
+}
+
+
+@media (max-aspect-ratio: 1/1) {
+	.plakat {
+		display: none;
+	}
+	
+	.plakatS {
+		display: block;
+	}	
+}
+
+

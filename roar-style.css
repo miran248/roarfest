@@ -1,0 +1,841 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: crimes;
+	src: url(fonts/Crimes_Times_Six.ttf);
+}
+
+@font-face {
+	font-family: avenir;
+	src: url(fonts/Avenir.ttf);
+}
+
+a { 
+	text-decoration:none!important;
+}
+
+h1 {
+	font-family: crimes!important;
+	font-size: 37px!important;
+	color: #6abdd9;
+	margin-bottom: 5%!important;
+}
+
+h2 {
+	font-family: crimes!important;
+	font-size: 26px!important;
+	color: #d96a6a;
+	margin-top: 1%!important;
+	margin-bottom: 5%!important;
+}
+
+h3 {
+	font-family: crimes!important;
+	font-size: 37px!important;
+	color: #6abdd9;
+	margin-bottom: 2%!important;
+}
+
+h4 {
+	font-family: crimes!important;
+	font-size: 37px!important;
+	color: #d96a6a;
+	margin-bottom: 100px!important;
+}
+
+h5 {
+	font-family: crimes!important;
+	font-size: 37px!important;
+	color: #6abdd9;
+	margin-bottom: 5%!important;
+}
+
+h6 {
+	font-family: crimes!important;
+	font-size: 37px!important;
+	color: #d96a6a;
+	margin-bottom: 3%!important;
+}
+
+p {
+	font-family: avenir, Verdana, Geneva, sans-serif!important;
+	font-size: 13px!important;
+	line-height: 28px!important;
+	letter-spacing: 2px!important;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+p2 {
+	position: absolute;
+	font-family: avenir, Verdana, Geneva, sans-serif!important;
+	font-size: 13px!important;
+	line-height: 28px!important;
+	letter-spacing: 2px!important;
+	text-transform: uppercase;
+	color: #434445;
+	left: 30%!important;
+	
+}
+
+p3, p4 {
+	font-family: avenir, Verdana, Geneva, sans-serif!important;
+	font-size: 11px!important;
+	line-height: 24px!important;
+	letter-spacing: 2px!important;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 0%!important;
+}
+
+.info, .info2 {
+	padding-top: 3%!important;
+	text-align:left!important;
+	left:21.25%;
+  float: right;
+  margin-right: 3%!important;
+  width:60%;
+}	
+
+.slika, .slikaC {
+  margin-left: 3%!important;
+  width:20%; 
+  margin-top: 50px!important;
+}
+
+.slikaS {
+	display: none;
+}
+
+.video, .videoC, .videoDC {
+  float: right;
+  margin-right: 3%!important;
+  width:60%;
+  margin-top: -50px!important;
+}	
+
+.socialA {
+	position: absolute;
+	top: 0px;
+	right: 2%;
+	cursor: pointer;
+	display: none;
+}
+
+.socialDC {
+	position: absolute;
+	top: 260px;
+	left: 0px;
+	cursor: pointer;
+	display: none;
+}
+
+.socialC {
+	position: absolute;
+	top: 270px;
+	left: 0px;
+	cursor: pointer;
+	display: none;
+}
+	
+.socialP, .socialAL, .socialDCL, .socialCL {
+	position: absolute;
+	top:0;
+	right: 2%;
+}
+
+.socialLast {
+	position: absolute!important;
+	right: 0!important;
+}
+
+.logoS {
+	display: none;
+}
+
+.logo, .logo2 {
+	position: absolute;
+	top: 13%;
+	left: 10%;
+}
+
+.nekaj {
+	width: 70%;
+	float: right;
+	margin-top: 4%!important;
+	margin-left: 25%!important;
+}
+
+.vhod {
+  float: left;
+}
+
+.vhodS {
+	display: none;
+}
+
+.karta {
+  width: 70%;
+  margin-right: 5%!important;
+}
+
+.merch {
+	margin-left: 9%!important;
+	margin-top: 7%!important;
+}
+
+.cdS, .shirtS, .vinylS {
+	display: none;
+}
+
+.cd {
+	left:-8.33%;
+  float: left;
+}
+
+.shirt {
+	position: absolute;
+	top: 55%;
+	left: 41%;
+	margin: auto;
+}
+
+.vinyl {
+	left:-18.33%;
+  margin-top: 35px!important;
+  margin-right: 10%!important;
+  float: right;
+}
+
+.title {
+	text-align:left;
+	padding-left: 10%!important;
+}
+
+.headbang {
+	margin-bottom: 0!important;
+	margin-top: 2%!important;
+	margin-left: 3%!important;
+}
+
+@media (max-width: 850px) {
+	h1, h3, h4, h5, h6, h7, h8 {
+		font-size: 20px!important;
+	}
+	
+	h2 {
+		font-size: 16px!important;
+	}
+	
+	h4 {
+		margin-bottom: 2%!important;
+	}
+	
+	p, p2 {
+		font-size: 9px!important;
+		line-height: 16px!important;
+	}
+	
+	p2 {
+		line-height: 13px!important;
+	}
+	
+	p3 {
+		font-size: 8px!important;
+		line-height: 10px!important;
+		letter-spacing: 1px!important;
+	}
+	
+	p4 {
+		font-size: 8px!important;
+		line-height: 8px!important;
+		letter-spacing: 0.5px!important;
+	}
+	
+	.video, .videoDC {
+		margin-top: 10px!important;
+		width: 58%!important;
+		height: 200px;
+		float: none;
+	}
+	
+	.videoC {
+		width: 58%!important;
+		height: 150px;
+		float: none;
+		margin-top: 1%!important;
+		
+	}
+	
+	.slika, .slikaC {
+		display: none;
+	}
+	
+	.info {
+		width: 95%!important;
+		margin-left: 3%!important;
+		text-align:justify!important;
+	}
+	
+	.cdS, .shirtS, .vinylS {
+		display: block;
+	}
+	
+	.cd, .shirt, .vinyl {
+		display: none;
+	}
+
+	.cdS {
+		left:-8.33%;
+	  float: left;
+	}
+
+	.shirtS {
+		position: absolute;
+		top: 57%;
+		left: 35%;
+		margin: auto;
+	}
+	
+	.vinylS {
+		left:-18.33%;
+	  margin-top: -25px!important;
+	  margin-right: 10%!important;
+	  float: right;
+	}
+	
+	.vhodS {
+		display: block;
+	}
+	
+	.vhodL {
+		display: none;
+	}
+	
+	.nekaj {
+		margin-top: 6%!important;
+	}
+	
+	.karta {
+		height: 200px!important;
+		width: 45%;
+	}
+	
+	.logoS {
+		display: block;
+	}
+	
+	.logoL {
+		display: none;
+	}
+	
+	.logo {
+		left: 5%;
+		width: 100px!important;
+		height: 65px!important;
+	}	
+	
+	.logo2 {
+		left: 1%!important;
+	}
+	
+	.info2 {
+		left: 40%!important;
+		margin-right: 5%!important;
+		width: 50%;
+	}
+	
+	.headbang {
+		margin-right: 5%!important;
+		width: 280px;
+		height: 180px;
+	}	
+	
+	.socialAL, .socialDCL, .socialCL {
+		display: none;
+	}
+	
+	.socialA, .socialDC, .socialC {
+		display: block;
+		top: 2%;
+		right: 2%!important;
+		left: auto;
+	}
+}
+
+@media (min-width: 851px) and (max-width: 1000px) {
+	h1, h3, h4, h5, h6, h7, h8 {
+		font-size: 20px!important;
+	}
+	
+	h2 {
+		font-size: 16px!important;
+	}
+	
+	p, p2 {
+		font-size: 9px!important;
+		line-height: 16px!important;
+	}
+	
+	p3, p4 {
+		font-size: 8px!important;
+		line-height: 13px!important;
+		
+	}
+	
+	.info {
+		text-align:justify!important;
+	}
+	
+	.slikaL {
+		display: none;
+	}
+	
+	.slikaS {
+		display: block;
+	}
+	
+	.slika, .slikaC {
+		margin-left: 10%!important;
+		margin-top: 30px!important;
+	}
+		
+	.video, .videoDC, .videoC {
+		margin-top: 10px!important;
+		height:250px;
+	}
+	
+	.cdS, .shirtS, .vinylS {
+		display: block;
+	}
+	
+	.cd, .shirt, .vinyl {
+		display: none;
+	}
+
+	.cdS {
+		left:-8.33%;
+	  float: left;
+	}
+
+	.shirtS {
+		position: absolute;
+		top: 55%;
+		left: 36%;
+		margin: auto;
+	}
+	
+	.vinylS {
+		left:-18.33%;
+	  margin-top: 35px!important;
+	  margin-right: 10%!important;
+	  float: right;
+	}	
+	
+	.vhodS {
+		display: block;
+	}
+	
+	.vhodL {
+		display: none;
+	}
+	
+	.karta {
+		height: 200px!important;
+	}
+	
+	.logo {
+		left: 2%;
+	}
+	
+	.logo2 {
+		left: 1%!important;
+	}
+	
+	.info2 {
+		left: 40%!important;
+		margin-right: 5%!important;
+		width: 40%;
+	}
+	
+	.headbang {
+		margin-right: 4%!important;
+	}
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+	
+	p4 {
+		font-size: 8px!important;
+		line-height: 10px!important;
+		letter-spacing: 1px!important;
+	}
+	
+	.video, .videoDC {
+		height:300px;
+		margin-top: -100px!important;
+	}
+	
+	.videoDC {
+		margin-top: -140px!important;
+	}
+	
+	.videoC {
+		height: 250px;
+	}
+	
+	.slika, .slikaC {
+		margin-left: 1%!important;
+	}
+	
+	.cdS, .shirtS, .vinylS {
+		display: block;
+	}
+	
+	.cd, .shirt, .vinyl {
+		display: none;
+	}
+
+	.cdS {
+		left:-8.33%;
+	  float: left;
+	}
+
+	.shirtS {
+		position: absolute;
+		top: 55%;
+		left: 39%;
+		margin: auto;
+	}
+	
+	.vinylS {
+		left:-18.33%;
+	  margin-top: 35px!important;
+	  margin-right: 10%!important;
+	  float: right;
+	}
+	
+	.karta {
+		width: 50%;
+	}	
+	
+	.info2 {
+		left: 40%!important;
+		margin-right: 5%!important;
+		width: 50%;
+	}
+	
+	.logo2 {
+		left: 1%!important;
+	}	
+	
+	.headbang {
+		margin-right: 3%!important;
+	}
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+	p2 {
+		margin-left: 0!important;
+	}
+	
+	p4 {
+		font-size: 9px!important;
+		line-height: 11px!important;
+	}
+	
+	.slika {
+		margin-left: 7%!important;
+	}
+	
+	.video, .videoDC, .videoC {
+		height:350px!important;
+	}
+	
+	.videoDC {
+		margin-top: -130px!important;
+	}
+	
+	.cdS, .shirtS, .vinylS {
+		display: block;
+	}
+	
+	.cd, .shirt, .vinyl {
+		display: none;
+	}
+
+	.cdS {
+		left:-8.33%;
+	  float: left;
+	}
+
+	.shirtS {
+		position: absolute;
+		top: 55%;
+		left: 40%;
+		margin: auto;
+	}
+	
+	.vinylS {
+		left:-18.33%;
+	  margin-top: 35px!important;
+	  margin-right: 10%!important;
+	  float: right;
+	}	
+	
+	.karta {
+		width: 50%;
+	}
+	
+	.info2 {
+		left: 40%!important;
+		margin-right: 5%!important;
+		width: 50%;
+	}
+	
+	.headbang {
+		margin-right: 3%!important;
+	}
+}
+
+@media (min-width: 1401px) and (max-width: 1700px) {
+	.slika {
+		margin-left: 10%!important;
+	}
+	
+	.info {
+		margin-right: 5%!important;
+	}
+	
+	.video, .videoC {
+		margin-right: 5%!important;
+		height:400px;
+	}
+	
+	.videoC {
+		margin-top: 50px!important;
+	}
+	
+	.videoDC {
+		margin-right: 5%!important;
+		margin-top: -100px!important;
+		height:400px;
+	}
+	
+	.shirt {
+		left: 38%;
+	}
+	
+	.info2 {
+		left: 40%!important;
+		margin-right: 5%!important;
+		width: 50%;
+	}
+	
+	.headbang {
+		margin-right: 3%!important;
+	}
+	
+	.socialP, .socialAL, .socialDCL, .socialCL {
+		right: 10%!important;
+	}
+}
+
+@media (min-width: 1701px) {
+	.slika, .slikaC {
+		margin-left: 14%!important;
+	}
+	
+	.info {
+		margin-right: 14%!important;
+		width: 50%;
+	}
+	
+	.video {
+		margin-left: 5%!important;
+		margin-right: 14%!important;
+		width: 50%;
+		max-height:100%;
+	}
+	
+	.videoC {
+		margin-top: 50px!important;
+		margin-left: 5%!important;
+		margin-right: 14%!important;
+		width: 50%;
+		height:500px;
+	}
+	
+	.videoDC {
+		margin-left: 5%!important;
+		margin-right: 14%!important;
+		margin-top: -80px!important;
+		width: 50%;
+		max-height:100%;
+	}
+	
+	.headbang {
+		margin-right: 3%!important;
+	}
+	
+	.socialP, .socialAL, .socialDCL, .socialCL {
+		right: 10%!important;
+	}
+}
+
+@media (max-aspect-ratio: 1/1) {
+	h1, h3, h4, h5, h6, h7, h8 {
+		font-size: 20px!important;
+		padding-right: 0!Important;
+	}
+	
+	h2 {
+		font-size: 16px!important;
+	}
+	
+	h7 {
+		text-align: left!important;
+	}
+	
+	p, p2 {
+		font-size: 9px!important;
+		line-height: 16px!important;
+	}
+	
+	p3 {
+		font-size: 8px!important;
+		line-height: 13px!important;
+	}
+	
+	p4 {
+		font-size: 8px!important;
+		line-height: 8px!important;
+		letter-spacing: 0.5px!important;
+	}
+	
+	.info {
+		padding-top: 5%!important;
+		text-align: justify!important;
+		left:0;
+		top: 0px;
+		float: auto;
+		width:auto;
+		margin-left: 2%!important;
+		margin-bottom: 2%!important;
+	}	
+	
+	.slika {
+		left:0;
+		right: 0;
+	    float: none;
+	    width:50%;
+		text-align: center; 
+		padding-top: 2%!important;
+		margin: auto!important; 
+	}
+	
+	.slikaL {
+		display: none;
+	}
+	
+	.video, .videoDC {
+		height: 250px;
+		float: none;
+		width: 100%!important;
+		
+	}
+	
+	.videoC {
+		height: 150px;
+		margin-top: 1%!important;
+		float: none;
+		width: 100%!important;
+		
+	}
+	.buttonS {
+		display: block;
+	}
+	
+	.buttonL {
+		display: none;
+	}
+	
+	.socialA, .socialDC, .socialC {
+		display: block;
+		top: auto;
+		bottom: -25px;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+	
+	.socialAL, .socialDCL, .socialCL {
+		display: none;
+	}
+	
+	.cdS, .shirtS, .vinylS {
+		display: block;
+	}
+	
+	.cd, .shirt, .vinyl {
+		display: none;
+	}
+	
+	.merch {
+		margin-left: 4% auto!important;
+		margin-right: 0 auto!important;
+	}
+
+	.cdS {
+		left:-8.33%;
+	  float: left;
+	  z-index: -1;
+	}
+
+	.shirtS {
+		position: absolute;
+		top: 56%;
+		left: 48%;
+		margin: auto;
+		z-index: 0;
+	}
+	
+	.vinylS {
+		left: 20%;
+	 top: 90%;
+	  margin-right: 1%!important;
+	  z-index: 10;
+	  position: absolute;
+	}	
+	
+	.logo {
+		top: 5%;
+	}
+	
+	.nekaj {
+		width: 100%;
+		margin-top: 10%!important;
+	}
+	
+	.vhod {
+		display: none;
+	}
+	
+	.karta {
+		width: 100%;
+		height: 300px!important;
+	}
+	
+	.info2 {
+		width: 95%;
+		text-align:justify!important;
+		left: 2%!important;
+		margin-right: 2%!important;
+	}
+	
+	.logo2 {
+		top: 100%;
+		left: 28%!important;
+	}
+}
